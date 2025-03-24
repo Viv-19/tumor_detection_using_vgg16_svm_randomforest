@@ -6,28 +6,36 @@ This project implements a brain tumor classification model using transfer learni
 **Prerequisites**
 
 To run this project, you need the following libraries installed:
+
 pip install tensorflow opencv-python scikit-learn matplotlib seaborn numpy pandas
 
 
 **Steps**
 
 Load Data: MRI images labeled as "Tumor" or "No Tumor."
+
 Data Augmentation: Rotate, zoom, shift, and flip images for variety.
+
 Feature Extraction: Use pre-trained VGG16 to extract features.
+
 Classify: SVM and Random Forest classify the images.
+
 Evaluate: Compare models' accuracy and performance.
 
 
 **Results**
 
 Model	Accuracy
+
 SVM	97%
+
 Random Forest	89%
 
 
 **Visualization**
 
 Feature Maps: Visualize 16 VGG16 filters.
+
 Model Comparison: Bar chart comparing SVM vs Random Forest accuracies.
 
 
