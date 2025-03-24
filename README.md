@@ -3,11 +3,15 @@
 This project implements a brain tumor classification model using transfer learning from the VGG16 architecture and classifies the extracted features using Random Forest and SVM (Support Vector Machine). The dataset consists of labeled brain MRI images with tumors and without tumors, and data augmentation techniques are applied to increase the dataset's size for training. The pipeline involves feature extraction from the VGG16 pre-trained model, followed by training both SVM and Random Forest classifiers to evaluate the performance of each.
 
 
+
+
 **Prerequisites**
 
 To run this project, you need the following libraries installed:
 
 pip install tensorflow opencv-python scikit-learn matplotlib seaborn numpy pandas
+
+
 
 
 **Steps**
@@ -23,6 +27,8 @@ Classify: SVM and Random Forest classify the images.
 Evaluate: Compare models' accuracy and performance.
 
 
+
+
 **Results**
 
 Model	Accuracy
@@ -32,11 +38,15 @@ SVM	97%
 Random Forest	89%
 
 
+
+
 **Visualization**
 
 Feature Maps: Visualize 16 VGG16 filters.
 
 Model Comparison: Bar chart comparing SVM vs Random Forest accuracies.
+
+
 
 
 **Conclusion**
